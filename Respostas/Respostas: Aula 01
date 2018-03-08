@@ -1,2 +1,26 @@
-O que são sistemas Embarcados? São sistemas completos e independentes que são carregados de executar funções determinadas 
+1)O que são sistemas Embarcados? 
+Sistema embarcado( Sistema Embutido) é um sistema microprocessado no qual o computador é completamente emcapsulado ou 
+dedicado ao dispositivo que controla.São sistemas completos e independentes que são carregados de executar funções determinadas na qual
+realiza conjunto de tarefas pré- deffenidas com algum requesito específico.È uma única tarefa que intarage continuamente com o meio ambiente.
+
+2)O que são sistemas Microprocessados?
+São sistemas que fazem operações lógicas,processamento de dados e de controle na qual precisa receber ordens de outros componentes externos 
+para funcionar.
+
+3)Apresente aplicações de sistemas embarcados: 
+(a) para a indústria automotiva: Computador de Bordo.
+
+(b) para eletrodomésticos:Máquina de Lavar de Roupa,Geladeira, impressora.
+
+(c) para automação industrial:Robôs
+
+4)Cite arquiteturas possíveis e as diferenças entre elas.
+Microprocessador: È um circuito integrado responsável pelo processamento de dados, como uma unidade lógica aritmética, com diversos
+registradores especiais,mas precisa receber ordens extrenas e ter outro compnentes externos para fucnionar.
+Microcontrolador: È um microprocessador,memória ram ,memoria rom, temporizadores,contadores,porta serial,conversores  e portas I/O em
+um só circuito integrado.
+
+5)Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+Possui maior capacidade de desenvolver projetos mais complexos com uma maior facilidade diferente de outros microcontroladores por exemplo: a
+arduino que é bom para o aprendizado entretanto para projetos mais complexos seu entendimento fica mais dificil e menos inviável para projetar.
 
