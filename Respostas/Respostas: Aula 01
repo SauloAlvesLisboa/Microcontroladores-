@@ -15,6 +15,10 @@ para funcionar.
 (c) para automação industrial:Robôs
 
 4)Cite arquiteturas possíveis e as diferenças entre elas.
+Von Neumann é uma arquitetura que utiliza um par de barramentos externos para trasnmissão de dados e endereços no mesmo barramento,
+sendo uma arquitetura de baixo custo, porém com um desempenho mais limitado.
+Harvard é uma arquitetura que utilizado mais barramentos, sendo mais sofisticada, podendo fazer mais de uma operação ao mesmo tempo,
+porém apresenta um custo mais elevado.
 Microprocessador: È um circuito integrado responsável pelo processamento de dados, como uma unidade lógica aritmética, com diversos
 registradores especiais,mas precisa receber ordens extrenas e ter outro compnentes externos para fucnionar.
 Microcontrolador: È um microprocessador,memória ram ,memoria rom, temporizadores,contadores,porta serial,conversores  e portas I/O em
