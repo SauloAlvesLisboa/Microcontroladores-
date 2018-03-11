@@ -16,4 +16,12 @@ operação normal do circuito.
 4)Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
  Von Neuman: A arquiteruta de Van Neumamn é um arquittura na qual os barramentos de dados e dos registados passam por um único barramento,
  sendo assim,deixando-o mais barato.
- Harvard: 
+Harvard:Uma arquitetura que utilizado mais barramentos, sendo mais sofisticada, podendo fazer mais de uma operação ao mesmo tempo,
+porém apresenta um custo mais elevado.Baseia-se na separação dos barramentos de dados e de endereço possibilitando o processador acessar os 
+dois barramentos simultaneamentes obtendo um desempenho melhor do que a arquitetura de Von Neuman.
+
+5) i= 0x8051ABCD.
+   Ao= 0x0200   
+   (a) Little-endian:  0x000000AB                   (b)  Big-endian:   0x00000051
+   
+6)
