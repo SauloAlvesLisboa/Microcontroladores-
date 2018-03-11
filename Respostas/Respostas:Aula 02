@@ -24,4 +24,4 @@ dois barramentos simultaneamentes obtendo um desempenho melhor do que a arquitet
    Ao= 0x0200   
    (a) Little-endian:  0x000000AB                   (b)  Big-endian:   0x00000051
    
-6)
+6) O processador deve utilizar uma memória auxiliar e fazer a operação em paralelo para que possa ocorrer a soma das duas variaveis de 32 bits 
