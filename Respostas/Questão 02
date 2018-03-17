@@ -1,0 +1,27 @@
+1)Quais as diferenças entre os barramentos de dados e de endereços?
+Barramentos de dados: È um dispositivo em que através do interior de um computador são transportados dados e informações importantes.È
+um canal de trasnmissão que transporta dados e informações entre o microprocessador e a memória.
+Baramento de Endereço: È um barramento ou seja uma via de trasmissão na qual é usado pelo Microprocessador para acessar a os endereços físicos
+de um memória na qual desjar acessar.
+
+2)Quais são as diferenças entre as memórias RAM e ROM?
+Memória RAM: (Ramdon Acessy Memory). È uma memória de leitura e escrita, o conteúdo pode ser lido e alterado durante seu uso no circuito.
+È uma memória volátil ou seja quando para o fornecimento de energia perde os dados armazenados.
+Memória ROM:( Read-only memory).È um memória somente de leitura O conteúdo pode ser lido durante o uso no circuito.A gravação é feita fora da
+operação normal do circuito.
+
+3)a) RAM.Por que ao ser inserido a variável i na memoria RAM estamos escrevendo esse valor na memoria. 
+  b)ROM. O programa compilado é na memória ROM por que o computador vai fazer somente a leitura do progama.
+  
+4)Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+ Von Neuman: A arquiteruta de Van Neumamn é um arquittura na qual os barramentos de dados e dos registados passam por um único barramento,
+ sendo assim,deixando-o mais barato.
+Harvard:Uma arquitetura que utilizado mais barramentos, sendo mais sofisticada, podendo fazer mais de uma operação ao mesmo tempo,
+porém apresenta um custo mais elevado.Baseia-se na separação dos barramentos de dados e de endereço possibilitando o processador acessar os 
+dois barramentos simultaneamentes obtendo um desempenho melhor do que a arquitetura de Von Neuman.
+
+5) i= 0x8051ABCD.
+   Ao= 0x0200   
+   (a) Little-endian:  0x000000AB                   (b)  Big-endian:   0x00000051
+   
+6) O processador deve utilizar uma memória auxiliar e fazer a operação em paralelo para que possa ocorrer a soma das duas variaveis de 32 bits 
