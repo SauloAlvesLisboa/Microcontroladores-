@@ -1,1 +1,12 @@
+1. Dada uma variável a do tipo char (um byte), escreva os trechos de código em C para:
+(a) Somente setar o bit menos significativo de a. 
+    P1DIR = 0x0001; ou P1DIR = BIT0;
+    
+(b) Somente setar dois bits de a: o menos significativo e o segundo menos significativo. 
+    P1DIR = 0x0003; ou P1DIR = BIT0 + BIT1;
 
+(c) Somente zerar o terceiro bit menos significativo de a. 
+    P1OUT &= ~(0x0004);
+
+(d) Somente zerar o terceiro e o quarto bits menos significativo de a. 
+    P1OUT &= ~(0x00012);
