@@ -10,3 +10,24 @@
 
 (d) Somente zerar o terceiro e o quarto bits menos significativo de a. 
     P1OUT &= ~(0x00012);
+    
+(e) Somente inverter o bit mais significativo de a.
+P1OUT=~(0x128);
+
+(f) Inverter o nibble mais significativo de a, e setar o nibble menos significativo de a.
+P1OUT ^= BIT7 + BIT6 + BIT5 + BIT4
+
+2. Considerando a placa Launchpad do MSP430, escreva o código em C para piscar os dois LEDs ininterruptamente.
+
+# include <msp450g2553.h>
+void main (void)
+{
+    WDTCTL= WDTPW + WDTHOLD 
+    PIDIR=0x41;
+    P1OUT=0x41;
+    for(;;)
+    {
+    }
+    }
+    
+3.Considerando a placa Launchpad do MSP430, escreva o código em C para piscar duas vezes os dois LEDs sempre que o usuário pressionar o botão.
