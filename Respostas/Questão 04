@@ -1,1 +1,10 @@
+Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w e sub.w.
+a)Mov.W #0, R4
 
+b)Add.W #1,R5
+
+c)Sub.w #1,R6
+
+d)Add.W 2,R7
+
+e)Sub.W 2,R8
