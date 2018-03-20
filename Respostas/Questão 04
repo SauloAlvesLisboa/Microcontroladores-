@@ -16,4 +16,14 @@ e) Mov.W #2,R14
 2)Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
 mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
 
-a)
+a) Mov.W #0,R4.
+
+b) inc.w  R5. 
+
+c) dec.W  R6.
+
+d) incd.W R7
+
+e) decd.W R8
+
+3)
