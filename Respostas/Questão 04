@@ -1,29 +1,87 @@
 1)Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções: mov.w, add.w e sub.w.
-a) Mov.W #0, R4
+a) f = 0;
+   Mov.W #0, R4
 
-b) Mov.W #1, R12
+b) g++;
+   Mov.W #1, R12
    Add.W R12,R5.
    
-c) Mov.W #1,R11
+c) h--;
+   Mov.W #1,R11
    Sub.W R11,R6.
 
-d) Mov.W #2,R13
+d) i += 2;
+   Mov.W #2,R13
    Add.W R13,R7.
 
-e) Mov.W #2,R14
+e) j -= 2;
+   Mov.W #2,R14
    Sub.W R14,R8  
 
 2)Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
 mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
 
-a) Mov.W #0,R4.
+a) f = 0;
+  Mov.W #0,R4.
 
-b) inc.w  R5. 
+b) g++; 
+  inc.w  R5. 
 
-c) dec.W  R6.
+c) h--;
+   dec.W  R6.
 
-d) incd.W R7
+d) i += 2;
+   incd.W R7
 
-e) decd.W R8
+e) j -= 2;
+   decd.W R8
 
-3)
+3)Traduza as seguintes linhas em C para a linguagem assembly do MSP430. Utilize somente as seguintes instruções:
+mov.w, add.w, sub.w, clr.w, dec.w, decd.w, inc.w e incd.w.
+
+a) f *= 2;
+   Add.W R4,R4
+
+b) g *= 3;
+   Mov.W R5,R11
+   Add.W R5,R11
+   Add.W R5,R11
+   Add.W R5,R11
+
+c)  h *= 4;
+    Mov.W  R6,R12
+    Add.W R6,R4
+    Add.W R6,R4
+    Add.W R6,R4
+    Add.W R6,R4
+
+d)  A[2] = A[1] + A[0];
+    Mov.W 2(R9),4(R9)
+    Add.W 0(R9),4(R9)
+
+e)A[3] = 2*f - 4*h
+
+ mov.w 6(R9),R11
+ add.w R4, R4
+ mov.w R6,  R12
+ add.w R6 , R12
+ add.w R6 , R12
+ add.w R6 , R12
+ add.w R6 , R12
+ sub.w R4 , R12
+ add.w R12 , R11
+ mov.w R11, 6(R9)
+ 
+ (f) A[3] = 2*(f - 2*h);
+ 
+  mov.w 6(R9), R11
+
+ add.w R6, R6
+
+ sub.w R4, R6
+
+ add.w R6, R6
+
+ add.w R6, R11
+
+ mov.w R11, 6(R9)
