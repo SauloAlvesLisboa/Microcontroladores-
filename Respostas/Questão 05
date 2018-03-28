@@ -8,4 +8,15 @@ Escreva os trechos de código assembly do MSP430 para:
 (c) Somente zerar o terceiro bit menos significativo de R7. 
 BIC.W #4,R7
 
+(d) Somente zerar o terceiro e o quarto bits menos significativo de R8.
+BIC.W # 12, R8
+
+(e)Somente inverter o bit mais significativo de R9.
+XOR.W #56,R9
+
+(f) Inverter o nibble mais significativo de R10, e setar o nibble menos significativo de R10.
+MOV.W # 248, R11
+XOR.W R11, R10
+MOV.W #15, R12.
+BIS.W R12,R10
 
