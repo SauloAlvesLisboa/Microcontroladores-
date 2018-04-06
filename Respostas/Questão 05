@@ -76,7 +76,7 @@ for(i=99; i>=0; i--) A[i] = i*2;
 LOOP:
 
 Mov.W #99, R11
-Mov.W # 0, R12
+Mov.W # 1, R12
 rla R7
 Mov.W R7,R9
 Cmp R11, R12
