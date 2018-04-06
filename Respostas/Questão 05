@@ -28,9 +28,16 @@ else f = g-h-10;
 comp R7,R8
 jl:LABEL_1
 
-LABEL_1:
+Mov.W # 10, R11
+SUB.W R5,R11
+SUB.W R5,R6
+SUB.W R4,R5
 
+
+LABEL_1:
 Mov.W # 10, R11
 Add.W R5,R11
 Add.W R5,R6
 Mov.W R4,R5
+
+
