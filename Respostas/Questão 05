@@ -59,7 +59,7 @@ for(i=0; i<100; i++) A[i] = i*2;
 
 i=R7 A=R9
 
-Loop:
+LOOP:
 
 Mov.W #0, R11
 Mov.W # 99, R12
@@ -68,8 +68,21 @@ Mov.W R7,R9
 Cmp R11, R12
 jeq exit
 inc.w R11
-jmp Loop
+jmp LOOP
 
+5."Traduza" o seguinte trecho de código em C para o assembly do MSP430:
+for(i=99; i>=0; i--) A[i] = i*2;
+
+LOOP:
+
+Mov.W #99, R11
+Mov.W # 0, R12
+rla R7
+Mov.W R7,R9
+Cmp R11, R12
+jeq exit
+dec.w R11
+jmp LOOP
 
 
 
