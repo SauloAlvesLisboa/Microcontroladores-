@@ -41,3 +41,20 @@ Add.W R5,R6
 Mov.W R4,R5
 
 
+3."Traduza" o seguinte trecho de código em C para o assembly do MSP430:
+while(save[i]!=k) i++; R15=K , R7=i
+
+loop:
+Mov.W R7,R12
+rla R12
+add.w R13,R12
+comp 0(R12),R15
+jeq Exit
+inc.W R7
+Exit:
+
+
+
+
+
+
